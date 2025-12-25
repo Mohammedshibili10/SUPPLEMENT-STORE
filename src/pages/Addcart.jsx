@@ -26,7 +26,7 @@ export default function Addcart() {
                 <div className='border-b border-gray-300 flex justify-between w-250 h-70 mt-10 '>
                     <div className='flex   gap-5'>
     
-                            <img className='w-52 m-7 rounded-lg' src="src/assets/images/prework.jpg" alt="error" />
+                            <img className='w-52 m-7 rounded-lg' src="/images/prework.jpg" alt="error" />
                             <div className='mt-6 space-y-1'>
                                 <h1 className='text-xl font-bold'>PREWORKOUT </h1>
                                 <p className='text-sm text-gray-400'>Varient :</p>

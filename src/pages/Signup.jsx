@@ -34,7 +34,7 @@ export default function Signup() {
                             </div>
                             <div className='relative'>
                                 <button className=' border-2 w-70 h-12 ml-15 rounded-md'>Sign up with Google</button>
-                                <img className='w-6 absolute left-25 bottom-3' src="src/assets/images/google.png" alt="error" />
+                                <img className='w-6 absolute left-25 bottom-3' src="/images/google.png" alt="error" />
                             </div>
                         </div>
                     </form>

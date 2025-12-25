@@ -27,7 +27,7 @@ export default function Navbar() {
         </div>
         <div className='md:flex items-center gap-4 hidden '>
           <div className='w-12 h-12 rounded-full bg-red-500 relative'>
-            <img className='w-7  absolute left-2 top-2' src="src/assets/images/shopping-cart.png" alt="error" /></div>
+            <img className='w-7  absolute left-2 top-2' src="/images/shopping-cart.png" alt="error" /></div>
           <div className='hidden md:block'>
             <button className='w-40 h-10 bg-red-500 rounded-md text-white font-bold'>GET STARTED</button>
           </div>
