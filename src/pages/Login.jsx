@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import asset from '../assets/assest'
 
 export default function Login() {
     const [username, setUsername] = useState('')
@@ -60,7 +61,7 @@ export default function Login() {
                             </div>
                             <div className='relative'>
                                 <button className=' border-2 w-70 h-12 ml-15 rounded-md'>Login with Google</button>
-                                <img className='w-6 absolute left-25 bottom-3' src="/images/google.png" alt="error" />
+                                <img className='w-6 absolute left-25 bottom-3' src={asset[1]} alt="error" />
                             </div>
                             <div className='flex gap-1 justify-center mt-2 '>
                                 <p className='text-[14px]'>Don't have an account?</p><Link to={'/signup'}><p className='text-blue-500 text-[14px] underline underline-offset-4'>Signup</p></Link>
