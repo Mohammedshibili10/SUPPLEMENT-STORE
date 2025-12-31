@@ -12,6 +12,6 @@ import omega from './images/omega.jpg';
 
 
 
-const asset=[back,google,logo,thander,rating,protien,cart,preworkout,omega];
+const assets=[back,google,logo,thander,rating,protien,cart,preworkout,omega];
 
-export default asset;
+export default assets;

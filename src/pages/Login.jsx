@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import asset from '../assets/assest'
+import assets from '../assets/assets.js'
 
 export default function Login() {
     const [username, setUsername] = useState('')

@@ -5,7 +5,7 @@ import Benfits from './Benfits'
 import Review from './Review'
 import About from './About'
 import { Link } from 'react-router-dom'
-import asset from '../assets/assest.js'
+import assets from '../assets/assets.js'
 import back from '../assets/images/back.jpg'
 export default function Home() {
     return (
