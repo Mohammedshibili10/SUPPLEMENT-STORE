@@ -6,12 +6,12 @@ import Review from './Review'
 import About from './About'
 import { Link } from 'react-router-dom'
 import asset from '../assets/assest'
-
+import back from '../assets/images/back.jpg'
 export default function Home() {
     return (
         <div>
             <Navbar />
-            <div className='w-full  h-screen  bg-cover bg-center  ' style={{ backgroundImage: `url(${asset[0]})` }}>
+            <div className='w-full  h-screen  bg-cover bg-center  ' style={{ backgroundImage: `url(${back})` }}>
                 <div className='max-w-md sm:max-w-2xl md:max-w-xl lg:max-w-3xl text-left pt-25 md:pt-40 space-y-8  md:space-y-6 px-9   md:px-20'>
                     <div className='w-60 md:w-80 h-10 border-2 border-red-600   text-center rounded-full pt-2 md:pt-1'>
                         <h1 className='text-sm md:text-lg font-bold text-white '>UNLEASH YOUR POTENTIONAL</h1>
