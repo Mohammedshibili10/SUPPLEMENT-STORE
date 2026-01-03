@@ -3,7 +3,7 @@ import Reviewlist from './Reviewlist'
 
 export default function Reviewfilter() {
     return (
-        <div className='flex gap-15 px-40 mt-10'>
+        <div className='md:flex gap-15 lg:gap-30 px-5 px-10 lg:px-40 mt-10'>
             <div className='border text-white w-80 h-160 border-gray-500 rounded-lg '>
                 <div className='border-b border-gray-500 m-5 pb-4'>
                     <h1 className='text-white font-bold text-xl'>Reviews Filter</h1>
@@ -22,11 +22,11 @@ export default function Reviewfilter() {
             
                 <h1 className='text-white text-lg font-medium mt-8 pl-5'>Review Topics</h1>
                 <div className='text-white space-y-3 m-5 px-5'>
-                    <div>  <input className='w-4 h-4 ' type="checkbox" /><span className='font-bold textmd pl-2 '>Product Quality</span></div>
-                    <div> <input className='w-4 h-4 ' type="checkbox" /><span className='font-bold text-md pl-2'> Seller Service</span></div>
-                    <div> <input className='w-4 h-4 ' type="checkbox" /><span className='font-bold text-md pl-2'> Product Service</span></div>
-                    <div> <input className='w-4 h-4 ' type="checkbox" /><span className='font-bold text-md pl-2'> Shipment</span></div>
-                    <div> <input className='w-4 h-4 ' type="checkbox" /> <span className='font-bold textmd pl-2 '>Match with Description</span></div>
+                    <div>  <input className='w-4 h-4 ' type="checkbox" /><span className='font-bold text-smpl-2 '>Product Quality</span></div>
+                    <div> <input className='w-4 h-4 ' type="checkbox" /><span className='font-bold  text-sm pl-2'> Seller Service</span></div>
+                    <div> <input className='w-4 h-4 ' type="checkbox" /><span className='font-bold  text-sm pl-2'> Product Service</span></div>
+                    <div> <input className='w-4 h-4 ' type="checkbox" /><span className='font-bold  text-sm pl-2'> Shipment</span></div>
+                    <div> <input className='w-4 h-4 ' type="checkbox" /> <span className='font-bold text-sm pl-2 '>Match with Description</span></div>
                 </div>
             </div>
         </div>

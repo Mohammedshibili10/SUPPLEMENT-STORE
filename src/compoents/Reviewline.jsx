@@ -3,7 +3,7 @@ import React from 'react'
 export default function Reviewline() {
     return (
         <div>
-            <div className='w-250 space-y-3 mt-5 '>
+            <div className='lg:w-250 space-y-3 mt-5 '>
                 <div className="mb-2 flex justify-between items-center">
                     <h3 className="text-sm font-semibold text-gray-800 dark:text-white">Quality</h3>
                     <span className="text-sm text-gray-800 dark:text-white">25%</span>

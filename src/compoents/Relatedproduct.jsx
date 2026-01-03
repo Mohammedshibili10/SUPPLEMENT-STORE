@@ -44,13 +44,13 @@ export default function Relatedproduct() {
       ]
     
   return (
-    <div>
+    <div className='w-full overflow-x-auto lg:px-30 '>
        
-       <div className=' sm:flex  md:flex-wrap  gap-15 justify-center items-center mt-10 '>
+       <div className=' flex  gap-15 px-10  mt-10 '>
       {product.map((prod) => (
-        <div className='border-2 broder-gray-500 w-85 md:w-70 h-100 rounded-xl bg-black text-white transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:border-red-500 ' >
+        <div className='min-w-[280px] md:w-[300px] h-[400px] border-2 border-gray-500 rounded-xl bg-black text-white transition duration-300 hover:scale-105 hover:border-red-500 ' >
           <div className='relative'>
-            <img className='w-70 h-50 rounded-t-xl ' src={prod.image} alt="error" />
+            <img className='w-full h-[200px] object-cover rounded-t-xl ' src={prod.image} alt="error" />
             
           </div>
           <div className='px-3  space-y-1'>

@@ -3,8 +3,8 @@ import Reviewline from './Reviewline'
 
 export default function Reviewbars() {
   return (
-    <div className='px-40'>
-      <div className=' w-400 flex gap-50  border-2 border-gray-500 rounded-lg  p-10 '>
+    <div className=' px-5 md:px-10 lg:px-40'>
+      <div className=' lg:w-400 lg:flex gap-50  border-2 border-gray-500 rounded-lg  p-10 '>
         <div className='flex gap-5 mt-7'>
           <div class="relative size-30 ">
             <svg class="size-full -rotate-90" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">

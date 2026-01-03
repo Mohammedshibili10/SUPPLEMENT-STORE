@@ -38,7 +38,7 @@ export default function Reviewlist() {
 }]
     return (
  
-    <div> 
+    <div className='md:w-100 lg:w-full '> 
         {reviewdata.map((data)=>( 
         <div className='text-white border-b border-gray-500 mb-5 pb-5 mt-10  '>
         <div className='space-y-3'>
